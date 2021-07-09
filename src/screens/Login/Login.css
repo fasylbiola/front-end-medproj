@@ -1,0 +1,29 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+  .ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 100ms ease-in;
+    z-index: 1000;
+    padding: 0px!;
+  }
+
+  .ReactModal__Overlay--after-open {
+    opacity: 1;
+  }
+
+  .ReactModal__Overlay--before-close {
+    opacity: 0;
+  }
+  .ReactModal__Content {
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+  }
+}
